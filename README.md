@@ -1,4 +1,4 @@
-#Caloric Based Food Recommendations
+Caloric Based Food Recommendations
 
 This project focuses on developing a food recommendation system tailored for individuals with different body types: bulk, lean, and maintenance. The system utilizes Python and machine learning techniques, specifically the k-nearest neighbors (KNN) algorithm, to provide personalized dietary suggestions based on caloric needs.
 
@@ -20,9 +20,9 @@ Matplotlib: For creating visualizations to analyze the dataset and results.
 
 Seaborn: For creating attractive and informative statistical graphics.
 
-KNN Algorithm
+K-NN Algorithm:
 
-The KNN algorithm is employed to classify food items based on their nutritional content and similarity to the user's preferences. The process involves the following steps:
+The K-NN algorithm is employed to classify food items based on their nutritional content and similarity to the user's preferences. The process involves the following steps:
 
 Data Collection: Gather nutritional information about various food items, including calories, macronutrients, and portion sizes.
 
@@ -33,6 +33,6 @@ Model Training: Use the KNN algorithm to train the model on the dataset. The mod
 Recommendation Generation: When a user inputs their body type, the model returns a list of recommended foods that meet these criteria.
 
 
-Conclusion
+Conclusion:
 
 This caloric-based food recommendation system is designed to help users make informed dietary choices based on their body type and caloric needs. By leveraging the KNN algorithm and a user-friendly interface, individuals can easily find suitable meal options to support their health and fitness goals.
